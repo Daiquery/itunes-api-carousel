@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
     <SearchComponent />
-      <div className="cardHolder">
+      {/* <div className="cardHolder">
         <h1>card here</h1>
         <h1>card here</h1>
         <h1>card here</h1>
@@ -17,7 +17,7 @@ function App() {
         <h1>button right</h1>
       </div>
 
-      <button>play button</button>
+      <button>play button</button> */}
 {/* 
       {songs.map(()=> {
         dynamically render cards from songs
