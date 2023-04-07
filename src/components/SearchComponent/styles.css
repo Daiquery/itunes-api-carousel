@@ -1,0 +1,10 @@
+.search-component {
+    display: inline-block;
+}
+
+.search {
+    height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    display: inline-flex;
+}

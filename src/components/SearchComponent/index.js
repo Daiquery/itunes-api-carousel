@@ -1,9 +1,11 @@
+import './styles.css'
 import { useState } from 'react';
 import CardComponent from '../CardComponent';
+import CarouselComponent from '../CarouselComponent';
 
 function SearchComponent(){ 
     const searchSong = (searchTerm) => {
-        fetch('https://itunes.apple.com/search?term=' + searchTerm)
+        fetch('https://itunes.apple.com/search?term=' + searchTerm + '&media=music')
         .then(response => response.json())
         .then(data => setResults(data.results));
     }
@@ -13,17 +15,12 @@ const [results, setResults] = useState([]);
 console.log(results);
 
   return (
-    <div className="Search">
+    <div className="search-component">
       <input className="search" placeholder='Twista' onChange={(e) => setSearchTerm(e.target.value)}/>
       <button onClick={() => searchSong(searchTerm)}>Search</button>
 
+      <CarouselComponent results={results}/>
 
-      {results.length
-        ? results.map((value, i) => {
-            return <CardComponent imageUrl={value.artworkUrl100} songName={value.collectionName} artistName={value.artistName} linkUrl={value.collectionViewUrl}/>
-        })
-        : <h1>No songs yet!</h1>
-      }
 
 
 

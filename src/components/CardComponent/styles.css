@@ -1,0 +1,15 @@
+.card-component {
+    height: 15rem;
+    width: 15rem;
+    margin-right: 2.5rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+
+}
+
+.card-link-container {
+    text-decoration: none;
+    color: black;
+
+}
