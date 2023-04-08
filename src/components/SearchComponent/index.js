@@ -6,7 +6,6 @@ import CarouselComponent from "../CarouselComponent";
 function SearchComponent() {
   const [searchTerm, setSearchTerm] = useState("");
   const [results, setResults] = useState([]);
-  console.log(results);
 
   const searchSong = (searchTerm) => {
     if (localStorage.getItem(searchTerm)) {
