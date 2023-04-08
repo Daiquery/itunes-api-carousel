@@ -15,7 +15,7 @@ const CarouselComponent = ({ results }) => {
 
   return (
     <div className="carousel">
-      <div className="carousel-cards">
+      <div className="carousel__cards">
         {results.slice(currentSlide, currentSlide + 3).map((song, index) => (
           <div>
             <CardComponent
