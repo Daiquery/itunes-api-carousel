@@ -1,11 +1,28 @@
 .card-component {
-    height: 15rem;
-    width: 15rem;
+    height: 26rem;
+    width: 26rem;
     margin-right: 2.5rem;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden; 
+    transition: all .2s ease-in-out;
+}
 
+.card-component:hover {
+    transform: scale(1.1);
+}
+
+.card-component__image {
+    width: 70%;
+    box-shadow: 5px 10px 20px black;
+
+}
+
+.card-component:nth-child(1) {
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1.0) 0%, transparent 95%);
+}
+.card-component:nth-child(3) {
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1.0) 0%, transparent 95%);
 }
 
 .card__link-container {

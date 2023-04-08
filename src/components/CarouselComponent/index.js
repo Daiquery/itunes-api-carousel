@@ -17,14 +17,13 @@ const CarouselComponent = ({ results }) => {
     <div className="carousel">
       <div className="carousel__cards">
         {results.slice(currentSlide, currentSlide + 3).map((song, index) => (
-          <div>
             <CardComponent
+              key={index}
               imageUrl={song.artworkUrl100}
               songName={song.collectionName}
               artistName={song.artistName}
               linkUrl={song.collectionViewUrl}
             />
-          </div>
         ))}
       </div>
 

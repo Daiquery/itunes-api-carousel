@@ -29,7 +29,7 @@ function SearchComponent() {
     <div className="search-component">
       <input
         className="search"
-        placeholder="Twista"
+        placeholder="Enter a search term..."
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       <button onClick={() => searchSong(searchTerm)}>Search</button>

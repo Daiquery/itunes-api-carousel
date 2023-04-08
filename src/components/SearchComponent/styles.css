@@ -3,8 +3,13 @@
 }
 
 .search {
-    height: 3rem;
     margin-top: 1rem;
     margin-bottom: 3rem;
-    display: inline-flex;
+}
+
+input {
+    border-style: solid;
+    padding: 15px;
+    border: 2px;
+    border-color: black;
 }
