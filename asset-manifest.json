@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/itunes-api-carousel/static/css/main.b8f23330.css",
+    "main.js": "/itunes-api-carousel/static/js/main.2fa59d97.js",
+    "static/js/787.3ffd138c.chunk.js": "/itunes-api-carousel/static/js/787.3ffd138c.chunk.js",
+    "static/media/logo.svg": "/itunes-api-carousel/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/itunes-api-carousel/index.html",
+    "main.b8f23330.css.map": "/itunes-api-carousel/static/css/main.b8f23330.css.map",
+    "main.2fa59d97.js.map": "/itunes-api-carousel/static/js/main.2fa59d97.js.map",
+    "787.3ffd138c.chunk.js.map": "/itunes-api-carousel/static/js/787.3ffd138c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8f23330.css",
+    "static/js/main.2fa59d97.js"
+  ]
+}
